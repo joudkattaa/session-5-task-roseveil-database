@@ -1,0 +1,21 @@
+# Credentials and local connection settings
+.env
+.env.*
+!.env.example
+*.pgpass
+pgpass.conf
+.pg_service.conf
+pg_service.conf
+credentials*
+secrets*
+
+# Database exports, logs, and local editor/OS files
+*.dump
+*.backup
+*.log
+*.tmp
+*.swp
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
